@@ -6,13 +6,10 @@
 </head>
 <body style="margin : 0px; overflow: hidden; " BGCOLOR="#888BAD">
 <a-scene embedded arjs>
-  
-  <a-marker preset="ARmarker.patt">
-  <a-entity position="0 0 -5" rotation="0 0 0" scale="0.25 0.25 0.25" src="Bell-text.gltf"></a-entity>
 
-    </a-marker>
-  
-  <a-entity camera></a-entity>
+    <a-gltf-model position="0 0 -5" rotation="0 0 0" scale="0.25 0.25 0.25" src="Bell-text.gltf"></a-gltf-model>
+    
+  <a-marker-camera preset="hiro"></a-marker-camera>
   
   </a-scene>
 </body>
